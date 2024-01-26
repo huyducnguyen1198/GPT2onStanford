@@ -155,7 +155,7 @@ class TextDataset(Dataset):
 # Create the dataset
 dataset = TextDataset(trainingSet)
 #dataloader = DataLoader(dataset, batch_size=2, shuffle=True)  # Adjust batch_size as needed
-torch.device("mps")
+#torch.device("mps")
 
 # load model
 model = GPT2LMHeadModel.from_pretrained("gpt2")
