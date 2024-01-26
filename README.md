@@ -14,7 +14,9 @@ pip install -r requirements.txt
 ```
 
 Run the fine-tuning script:
+if you want to download the tokenized text download. if not run the preprocessing.py
 ```bash
+python preprocessing.py
 python reTrain.py
 ```
 
